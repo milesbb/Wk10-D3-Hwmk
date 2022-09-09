@@ -28,20 +28,50 @@ class MediaCarousel extends Component {
             <a className="arrow_ting" href="#sectionA3">
               ‹
             </a>
-            <div className="item">
+            <div className="item pe-auto">
               <img src={this.props.shows.Search[0].Poster}  alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[0].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[0].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[0].Year}</p>
+              </a>
+              </div>
             </div>
             <div className="item">
               <img src={this.props.shows.Search[1].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[1].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[1].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[1].Year}</p>
+                </a>
+              </div>
             </div>
             <div className="item">
               <img src={this.props.shows.Search[2].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[2].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[2].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[2].Year}</p>
+                </a>
+              </div>
             </div>
             <div className="item">
               <img src={this.props.shows.Search[3].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[3].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[3].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[3].Year}</p>
+                </a>
+              </div>
             </div>
             <div className="item">
               <img src={this.props.shows.Search[4].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[4].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[4].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[4].Year}</p>
+                </a>
+              </div>
             </div>
             <a className="arrow_ting" href="#sectionA2">
               ›
@@ -53,18 +83,48 @@ class MediaCarousel extends Component {
             </a>
             <div className="item">
               <img src={this.props.shows.Search[5].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[5].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[5].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[5].Year}</p>
+                </a>
+              </div>
             </div>
             <div className="item">
               <img src={this.props.shows.Search[6].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[6].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[6].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[6].Year}</p>
+                </a>
+              </div>
             </div>
             <div className="item">
               <img src={this.props.shows.Search[7].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[7].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[7].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[7].Year}</p>
+                </a>
+              </div>
             </div>
             <div className="item">
               <img src={this.props.shows.Search[8].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[8].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[8].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[8].Year}</p>
+                </a>
+              </div>
             </div>
             <div className="item">
               <img src={this.props.shows.Search[9].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[9].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[9].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[9].Year}</p>
+                </a>
+              </div>
             </div>
             <a className="arrow_ting" href="#sectionA3">
               ›
@@ -77,18 +137,48 @@ class MediaCarousel extends Component {
             </a>
             <div className="item">
               <img src={this.props.shows.Search[2].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[2].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[2].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[2].Year}</p>
+                </a>
+              </div>
             </div>
             <div className="item">
               <img src={this.props.shows.Search[7].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[7].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[7].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[7].Year}</p>
+                </a>
+              </div>
             </div>
             <div className="item">
               <img src={this.props.shows.Search[4].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[4].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[4].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[4].Year}</p>
+                </a>
+              </div>
             </div>
             <div className="item">
               <img src={this.props.shows.Search[6].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[6].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[6].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[6].Year}</p>
+                </a>
+              </div>
             </div>
             <div className="item">
               <img src={this.props.shows.Search[8].Poster} alt="TV-Show" />
+              <div className="overlay">
+              <a style={{fontSize: "1rem"}} href={'https://www.imdb.com/title/'+ this.props.shows.Search[8].imdbID}>
+                <p className="overlay-text ml-auto text-right fixed-bottom mb-5 text-white font-weight-bold w-50">{this.props.shows.Search[8].Title}</p>
+                <p className="overlay-text text-right fixed-bottom mb-3 text-white font-weight-bold">{this.props.shows.Search[8].Year}</p>
+                </a>
+              </div>
             </div>
             <a className="arrow_ting" href="#sectionA1">
               ›

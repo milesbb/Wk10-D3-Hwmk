@@ -43,7 +43,9 @@ class MainContainer extends Component {
             },
           });
         }
-        this.setState({ shows: { shows1: shows1, shows2: shows2, shows3: shows3 } });
+        this.setState({
+          shows: { shows1: shows1, shows2: shows2, shows3: shows3 },
+        });
         console.log("Main Test");
         console.log(this.state.shows);
       } else {
@@ -60,7 +62,7 @@ class MainContainer extends Component {
         alert: { variant: "danger", message: "Problem with fetch" },
       });
     } finally {
-        this.setState({ isLoading: false });
+      this.setState({ isLoading: false });
     }
   };
 
@@ -71,33 +73,30 @@ class MainContainer extends Component {
   render() {
     return (
       //   <div className="h-100 w-100" style={{ color: "white" }}>
-      <div>
-        {!this.state.isLoading && (
-          <div className="h-100 w-100" style={{ color: "white" }}>
-            <Title />
-            <MediaCarousel
-              shows={this.state.shows.shows1}
-              title="Trending Now"
-              errorOccurred={this.state.errorOccurred}
-              isLoading={this.state.isLoading}
-              alert={this.state.alert}
-            />
-            <MediaCarousel
-              shows={this.state.shows.shows2}
-              title="Watch It Again"
-              errorOccurred={this.state.errorOccurred}
-              isLoading={this.state.isLoading}
-              alert={this.state.alert}
-            />
-            <MediaCarousel
-              shows={this.state.shows.shows3}
-              title="New Releases"
-              errorOccurred={this.state.errorOccurred}
-              isLoading={this.state.isLoading}
-              alert={this.state.alert}
-            />
-          </div>
-        )}
+
+      <div className="h-100 w-100" style={{ color: "white" }}>
+        <Title />
+        <MediaCarousel
+          shows={this.state.shows.shows1}
+          title="Trending Now"
+          errorOccurred={this.state.errorOccurred}
+          isLoading={this.state.isLoading}
+          alert={this.state.alert}
+        />
+        <MediaCarousel
+          shows={this.state.shows.shows2}
+          title="Watch It Again"
+          errorOccurred={this.state.errorOccurred}
+          isLoading={this.state.isLoading}
+          alert={this.state.alert}
+        />
+        <MediaCarousel
+          shows={this.state.shows.shows3}
+          title="New Releases"
+          errorOccurred={this.state.errorOccurred}
+          isLoading={this.state.isLoading}
+          alert={this.state.alert}
+        />
       </div>
     );
   }
