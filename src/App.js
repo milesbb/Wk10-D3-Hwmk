@@ -1,25 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar';
+import MainContainer from './components/MainContainer';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <MainContainer />
+      <Footer />
     </div>
   );
 }
-
+// background: "rgb(0, 0, 0)", background: "linear-gradient(0deg, rgba(0,0,0,1) 75%, rgba(34,34,34,1) 100%)", color: "white", overscrollBehavior: "none"
 export default App;
