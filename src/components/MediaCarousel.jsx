@@ -19,7 +19,7 @@ class MediaCarousel extends Component {
         )}
 
         {/* start of carousel */}
-        {!this.props.isLoading && (
+        {!this.props.isLoading && this.props.errorOccurred === false && (
             <div className="wrapper">
           {console.log("tester")}
           {console.log(this.props.shows.Search)}
