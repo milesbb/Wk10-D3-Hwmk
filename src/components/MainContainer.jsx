@@ -1,4 +1,5 @@
 import { Component } from "react";
+import CarouselComp from "./CarouselComp";
 import MediaCarousel from "./MediaCarousel";
 import Title from "./Title";
 
@@ -76,7 +77,28 @@ class MainContainer extends Component {
 
       <div className="h-100 w-100" style={{ color: "white" }}>
         <Title />
-        <MediaCarousel
+        <CarouselComp
+          shows={this.state.shows.shows1}
+          title="Trending Now"
+          errorOccurred={this.state.errorOccurred}
+          isLoading={this.state.isLoading}
+          alert={this.state.alert}
+        />
+        <CarouselComp
+          shows={this.state.shows.shows2}
+          title="Watch It Again"
+          errorOccurred={this.state.errorOccurred}
+          isLoading={this.state.isLoading}
+          alert={this.state.alert}
+        />
+        <CarouselComp
+          shows={this.state.shows.shows3}
+          title="New Releases"
+          errorOccurred={this.state.errorOccurred}
+          isLoading={this.state.isLoading}
+          alert={this.state.alert}
+        />
+        {/* <MediaCarousel
           shows={this.state.shows.shows1}
           title="Trending Now"
           errorOccurred={this.state.errorOccurred}
@@ -96,7 +118,7 @@ class MainContainer extends Component {
           errorOccurred={this.state.errorOccurred}
           isLoading={this.state.isLoading}
           alert={this.state.alert}
-        />
+        /> */}
       </div>
     );
   }

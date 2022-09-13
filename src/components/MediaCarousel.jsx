@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./carousel.css";
+import CarouselComp from "./CarouselComp";
 import Loading from "./Loading";
 import Warning from "./Warning";
 
@@ -17,8 +18,9 @@ class MediaCarousel extends Component {
             message={this.props.alert.message}
           />
         )}
-
+        
         {/* start of carousel */}
+
         {!this.props.isLoading && this.props.errorOccurred === false && (
             <div className="wrapper">
           {console.log("tester")}
