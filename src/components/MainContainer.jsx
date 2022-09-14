@@ -97,27 +97,6 @@ class MainContainer extends Component {
           isLoading={this.state.isLoading}
           alert={this.state.alert}
         />
-        {/* <MediaCarousel
-          shows={this.state.shows.shows1}
-          title="Trending Now"
-          errorOccurred={this.state.errorOccurred}
-          isLoading={this.state.isLoading}
-          alert={this.state.alert}
-        />
-        <MediaCarousel
-          shows={this.state.shows.shows2}
-          title="Watch It Again"
-          errorOccurred={this.state.errorOccurred}
-          isLoading={this.state.isLoading}
-          alert={this.state.alert}
-        />
-        <MediaCarousel
-          shows={this.state.shows.shows3}
-          title="New Releases"
-          errorOccurred={this.state.errorOccurred}
-          isLoading={this.state.isLoading}
-          alert={this.state.alert}
-        /> */}
       </div>
     );
   }
