@@ -41,7 +41,7 @@ const NavBar = () => {
             type="text"
             placeholder={location.pathname === "/tv-shows" ? "Search in TV-Shows..." : "Search..."}
             className="mr-sm-2"
-            style={{ color: "white", width: "10rem" }}
+            style={{ color: "white", width: "70%" }}
           />
           <Button variant="" style={{ color: "white" }}>
             <svg
