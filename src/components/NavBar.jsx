@@ -1,5 +1,6 @@
 import logo from "../assets/netflix_logo.png";
 import avatar from "../assets/avatar.png";
+import { Link } from "react-router-dom";
 const { Component } = require("react");
 const {
   Navbar,
@@ -15,21 +16,23 @@ class NavBar extends Component {
   render() {
     return (
       <Navbar style={{ color: "white" }}>
-        <img
-          src={logo}
-          width="100rem"
-          className="d-block mx-auto img-responsive mx-5"
-          alt="netflix logo"
-        />
+        <Link to="/">
+          <img
+            src={logo}
+            width="100rem"
+            className="d-block mx-auto img-responsive mx-5"
+            alt="netflix logo"
+          />
+        </Link>
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#home" style={{ color: "white" }}>
+            <Link to="/" className="nav-link text-white">
               Home
-            </Nav.Link>
-            <Nav.Link href="#link" style={{ color: "white" }}>
+            </Link>
+            <Link to="/tv-shows" className="nav-link text-white">
               TV Shows
-            </Nav.Link>
+            </Link>
             <Nav.Link href="#link" style={{ color: "white" }}>
               Movies
             </Nav.Link>
@@ -45,7 +48,7 @@ class NavBar extends Component {
               type="text"
               placeholder="Search"
               className="mr-sm-2"
-              style={{ color: "white" }}
+              style={{ color: "white", width: "10rem" }}
             />
             <Button variant="" style={{ color: "white" }}>
               <svg

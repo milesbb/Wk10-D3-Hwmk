@@ -1,6 +1,5 @@
 import { Component } from "react";
 import CarouselComp from "./CarouselComp";
-import MediaCarousel from "./MediaCarousel";
 import Title from "./Title";
 
 class MainContainer extends Component {
