@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import TVShows from './components/TVShows';
 import Home from './components/Home';
+import MovieDetails from './components/MovieDetails';
+import Warning from './components/Warning';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/tv-shows' element={<TVShows/>} />
+        <Route path='/details/:movieId' element={<MovieDetails />} />
+        <Route path="*" element={<Warning variant="danger" message="unable to load page" />} />
       </Routes>
       </BrowserRouter>
     </div>

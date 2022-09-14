@@ -3,7 +3,10 @@ import { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <footer className="justify-center text-center mt-5" style={{backgroundColor: "black", color: "grey"}}>
+      <footer
+        className="justify-center text-center mt-5"
+        style={{ backgroundColor: "black", color: "grey" }}
+      >
         <div className="container p-4">
           <section className="mb-1">
             <svg
@@ -51,28 +54,46 @@ class Footer extends Component {
             </svg>
           </section>
 
-          <section style={{backgroundColor: "black", color: "grey"}}>
+          <section style={{ backgroundColor: "black", color: "grey" }}>
             <div className="row">
-              <div className="col-lg-2 col-md-2 mb-4 mb-md-0 " style={{backgroundColor: "black", color: "grey"}}></div>
-              <div className="col-lg-2 col-md-2 mb-4 mb-md-0 " style={{backgroundColor: "black", color: "grey"}}>
+              <div
+                className="col-lg-2 col-md-2 mb-4 mb-md-0 "
+                style={{ backgroundColor: "black", color: "grey" }}
+              ></div>
+              <div
+                className="col-lg-2 col-md-2 mb-4 mb-md-0 "
+                style={{ backgroundColor: "black", color: "grey" }}
+              >
                 <ul className="list-unstyled mb-0 text-lg-left text-md-left text-sm-center">
                   <li className="">
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Audio and Subtitles
                     </a>
                   </li>
                   <li>
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Media Center
                     </a>
                   </li>
                   <li>
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Privacy
                     </a>
                   </li>
                   <li>
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Contact Us
                     </a>
                   </li>
@@ -82,17 +103,26 @@ class Footer extends Component {
               <div className="col-lg-2 col-md-2 mb-4 mb-md-0">
                 <ul className="list-unstyled mb-0 text-lg-left text-md-left text-sm-center">
                   <li>
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Audio Description
                     </a>
                   </li>
                   <li>
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Investor Relations
                     </a>
                   </li>
                   <li>
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Legal Notices
                     </a>
                   </li>
@@ -102,17 +132,26 @@ class Footer extends Component {
               <div className="col-lg-2 col-md-2 mb-4 mb-md-0">
                 <ul className="list-unstyled mb-0 text-lg-left text-md-left text-sm-center">
                   <li>
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Help Center
                     </a>
                   </li>
                   <li>
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Jobs
                     </a>
                   </li>
                   <li>
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Cookie Preferences
                     </a>
                   </li>
@@ -122,23 +161,35 @@ class Footer extends Component {
               <div className="col-lg-2 col-md-2 mb-4 mb-md-0">
                 <ul className="list-unstyled mb-0 text-lg-left text-md-left text-sm-center">
                   <li>
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Gift Cards
                     </a>
                   </li>
                   <li>
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Terms of Use
                     </a>
                   </li>
                   <li>
-                    <a href="#!"  style={{backgroundColor: "black", color: "grey"}}>
+                    <a
+                      href="#!"
+                      style={{ backgroundColor: "black", color: "grey" }}
+                    >
                       Corporate Information
                     </a>
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-2 col-md-2 mb-4 mb-md-0"  style={{backgroundColor: "black", color: "grey"}}></div>
+              <div
+                className="col-lg-2 col-md-2 mb-4 mb-md-0"
+                style={{ backgroundColor: "black", color: "grey" }}
+              ></div>
             </div>
           </section>
         </div>
@@ -147,7 +198,14 @@ class Footer extends Component {
           className="text-center p-3"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
-          <button className="text-left gray-border someIcon pointer"  style={{backgroundColor: "black", color: "grey", border: "1px solid white"}}>
+          <button
+            className="text-left gray-border someIcon pointer"
+            style={{
+              backgroundColor: "black",
+              color: "grey",
+              border: "1px solid white",
+            }}
+          >
             Service Code
           </button>
           <p className="copytext mt-3">

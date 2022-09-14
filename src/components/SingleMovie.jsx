@@ -1,4 +1,6 @@
 import { Component } from "react";
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 class SingleMovie extends Component {
   render() {
@@ -10,22 +12,21 @@ class SingleMovie extends Component {
           alt="First slide"
           style={{ width: "16rem" }}
         />
-        <div className="overlay">
-          <a
-            style={{ fontSize: "1rem" }}
-            href={
-              "https://www.imdb.com/title/" +
-              this.props.shows[this.props.index].imdbID
-            }
-          >
-            <p className="overlay-text ml-auto mr-1 text-right mb-5 text-white font-weight-bold w-50">
-              {this.props.shows[this.props.index].Title}
-            </p>
-            <p className="overlay-text text-right mr-1 mb-3 text-white font-weight-bold">
-              {this.props.shows[this.props.index].Year}
-            </p>
-          </a>
-        </div>
+        <Link
+          style={{ fontSize: "1rem" }}
+          to={"/details/" + this.props.shows[this.props.index].imdbID}
+        >
+          <div className="overlay d-flex">
+            <div className="mx-auto w-75 mt-auto">
+              <p className="overlay-text ml-auto text-white font-weight-bold">
+                {this.props.shows[this.props.index].Title}
+              </p>
+              <p className="overlay-text text-white font-weight-bold">
+                {this.props.shows[this.props.index].Year}
+              </p>
+            </div>
+          </div>
+        </Link>
       </div>
     );
   }
