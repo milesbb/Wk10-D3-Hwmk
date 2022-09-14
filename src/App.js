@@ -26,5 +26,4 @@ function App() {
     </div>
   );
 }
-// background: "rgb(0, 0, 0)", background: "linear-gradient(0deg, rgba(0,0,0,1) 75%, rgba(34,34,34,1) 100%)", color: "white", overscrollBehavior: "none"
 export default App;
