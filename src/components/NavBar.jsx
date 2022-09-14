@@ -32,9 +32,9 @@ const NavBar = () => {
           <Nav.Link href="#link" style={{ color: "white" }}>
             My List
           </Nav.Link>
-          <Nav.Link href="#link" style={{ color: "white" }}>
+          <Link to="/back-office" className="nav-link text-white">
             Back Office
-          </Nav.Link>
+          </Link>
         </Nav>
         <Form inline>
           <FormControl

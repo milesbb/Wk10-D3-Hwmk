@@ -1,0 +1,19 @@
+.wrapdiv {
+    margin: auto;
+    width: 60%;
+}
+
+.setButton {
+    width: 12rem;
+    height: 3rem;
+    border: 1px solid lightgray
+}
+
+.link {
+    color: #4f87cd;
+    text-decoration: underline;
+}
+
+.link:hover {
+    cursor: pointer;
+}
