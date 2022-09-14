@@ -6,7 +6,6 @@ const { Navbar, Nav, Form, FormControl, Button } = require("react-bootstrap");
 
 const NavBar = () => {
   const location = useLocation();
-  console.log("LOCATION pathname", location.pathname);
 
   return (
     <Navbar style={{ color: "white" }}>
